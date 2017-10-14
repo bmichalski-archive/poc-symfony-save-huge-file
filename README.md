@@ -12,7 +12,7 @@ php -S 127.0.0.1:8080 -d upload_max_filesize=250M -d post_max_size=250M
 ```
 
 ## Test
-Make sure we are able to receive and save a huge file without using too much memory using PHP.
+Make sure we are able to receive and save a huge file without using too much memory.
 ### Procedure
 Using Postman:
 * Create a POST request on http://localhost:8080/app.php
