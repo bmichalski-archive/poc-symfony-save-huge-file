@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "bmichalski-poc/symfony-save-huge-file-poc",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "A simple test to make sure we are able to receive and save a huge file without using too much memory.",
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle"
